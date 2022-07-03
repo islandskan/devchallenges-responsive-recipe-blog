@@ -668,6 +668,14 @@ video {
   width: 91.666667%;
 }
 
+.list-disc{
+  list-style-type: disc;
+}
+
+.list-decimal{
+  list-style-type: decimal;
+}
+
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -776,6 +784,34 @@ video {
   font-style: italic;
 }
 
+.leading-8{
+  line-height: 2rem;
+}
+
+.leading-4{
+  line-height: 1rem;
+}
+
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-6{
+  line-height: 1.5rem;
+}
+
+.leading-5{
+  line-height: 1.25rem;
+}
+
+.leading-7{
+  line-height: 1.75rem;
+}
+
+.leading-\[26px\]{
+  line-height: 26px;
+}
+
 .text-secondary-100{
   --tw-text-opacity: 1;
   color: rgb(79 79 79 / var(--tw-text-opacity));
@@ -820,6 +856,40 @@ video {
   font-family: "Playfair Display";
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.marker\:h-9 *::marker{
+  height: 2.25rem;
+}
+
+.marker\:w-9 *::marker{
+  width: 2.25rem;
+}
+
+.marker\:rounded-sm *::marker{
+  border-radius: 0.125rem;
+}
+
+.marker\:bg-primary *::marker{
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 153 74 / var(--tw-bg-opacity));
+}
+
+.marker\:h-9::marker{
+  height: 2.25rem;
+}
+
+.marker\:w-9::marker{
+  width: 2.25rem;
+}
+
+.marker\:rounded-sm::marker{
+  border-radius: 0.125rem;
+}
+
+.marker\:bg-primary::marker{
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 153 74 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover{
