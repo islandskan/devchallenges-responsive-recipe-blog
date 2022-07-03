@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-title {
+    @apply text-secondary-200 text-[8px] uppercase font-body font-bold;
+}
+
+.card-info {
+    @apply text-[10px] font-body font-medium;
+}
+
+.recipe-heading {
+    @apply text-secondary-300 font-heading;
+}
