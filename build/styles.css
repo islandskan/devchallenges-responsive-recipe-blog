@@ -843,6 +843,10 @@ video {
   border-color: rgb(130 130 130 / var(--tw-border-opacity));
 }
 
+input:checked + label {
+  text-decoration: line-through;
+}
+
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(242 153 74 / var(--tw-text-opacity));
