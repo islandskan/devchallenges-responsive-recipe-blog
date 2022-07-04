@@ -14,6 +14,9 @@ module.exports = {
                     500: '#828282',
                 },
             },
+            gridTemplateColumns: {
+                instructions: '1fr auto',
+            },
             fontFamily: {
                 heading: ['"Playfair Display"'],
                 body: ['Montserrat'],
