@@ -24,15 +24,17 @@
     </head>
     <body class="bg-white text-secondary-300">
         <!-- Body wrapper -->
-        <div class="w-11/12 m-auto">
+        <div class="w-11/12 m-auto md:w-4/5 lg:w-9/12 xl:w-4/6">
             <!-- Recipe heading, ingress, and image -->
             <section class="mt-8 mb-6">
-                <h1 class="leading-8 font-heading font-bold text-2xl mb-3">
+                <h1
+                    class="leading-8 font-heading font-bold text-2xl mb-3 sm:text-3xl lg:text-4xl xl:text-5xl"
+                >
                     Classic Cheesecake Recipe
                 </h1>
-                <div class="mb-5 flex">
+                <div class="mb-5 flex lg:w-4/5 xl:w-[65%]">
                     <!-- The gray svg dots should be here -->
-                    <span class="mr-3 pt-1"
+                    <span class="mr-3 pt-1 lg:pt-2"
                         ><svg
                             width="13"
                             height="8"
@@ -53,7 +55,7 @@
                             /></svg
                     ></span>
                     <p
-                        class="leading-4 font-body italic font-medium text-xs text-secondary-100"
+                        class="leading-4 font-body italic font-medium text-xs text-secondary-100 sm:text-sm"
                     >
                         Look no further for a creamy and ultra smooth classic
                         cheesecake recipe! Paired with a buttery graham cracker
@@ -64,61 +66,75 @@
                 <img src="img/photo1.png" alt="Photo of a classic cheesecake" />
             </section>
             <!-- Main section for ingredients, instructions and the time card -->
-            <section class="mb-32">
+            <section class="mb-32 grid lg:grid-cols-desktopLayout">
                 <!-- Card with serving and time info -->
-                <div class="grid grid-cols-3 grid-rows-2 gap-y-5 leading-3">
+                <div
+                    class="grid grid-cols-3 grid-rows-2 gap-y-5 leading-3 lg:col-start-3 lg:h-[367px] lg:flex lg:flex-col lg:items-center lg:justify-evenly lg:py-7 lg:rounded-xl lg:shadow-card"
+                >
                     <div
-                        class="text-secondary-300 col-start-1 row-start-1 flex"
+                        class="text-secondary-300 col-start-1 row-start-1 flex lg:items-center lg:w-[122px]"
                     >
                         <!-- Icon -->
                         <span class="material-icons text-primary mr-[5px]"
                             >restaurant_menu</span
                         >
                         <div>
-                            <h6 class="card-title">Yields</h6>
-                            <p class="card-info text-primary">12 servings</p>
+                            <h6 class="card-title lg:text-[10px]">Yields</h6>
+                            <p class="card-info text-primary lg:text-sm">
+                                12 servings
+                            </p>
                         </div>
                     </div>
-                    <div class="col-start-1 row-start-2 flex">
+                    <div
+                        class="col-start-1 row-start-2 flex lg:items-center lg:w-[122px]"
+                    >
                         <!-- Icon -->
                         <span class="material-icons mr-[5px]">schedule</span>
                         <div>
-                            <h6 class="card-title">Prep time</h6>
-                            <p class="card-info">45 minutes</p>
+                            <h6 class="card-title lg:text-[10px]">Prep time</h6>
+                            <p class="card-info lg:text-sm">45 minutes</p>
                         </div>
                     </div>
-                    <div class="col-start-2 row-start-2 flex">
+                    <div
+                        class="col-start-2 row-start-2 flex lg:items-center lg:w-[122px]"
+                    >
                         <!-- Icon -->
                         <span class="material-icons mr-[5px]">schedule</span>
                         <div>
-                            <h6 class="card-title">Cook time</h6>
-                            <p class="card-info">1 hour</p>
+                            <h6 class="card-title lg:text-[10px]">Cook time</h6>
+                            <p class="card-info lg:text-sm">1 hour</p>
                         </div>
                     </div>
-                    <div class="col-start-3 row-start-2 flex">
+                    <div
+                        class="col-start-3 row-start-2 flex lg:items-center lg:w-[122px]"
+                    >
                         <!-- Icon -->
                         <span class="material-icons mr-[5px]">schedule</span>
                         <div>
-                            <h6 class="card-title">Total time</h6>
-                            <p class="card-info">7,75 hours</p>
+                            <h6 class="card-title lg:text-[10px]">
+                                Total time
+                            </h6>
+                            <p class="card-info lg:text-sm">7,75 hours</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Ingredients section -->
-                <section class="font-body font-normal text-sm mb-8 mt-8">
+                <section
+                    class="font-body font-normal text-sm mb-8 mt-8 lg:col-start-1 lg:row-start-1"
+                >
                     <h2
-                        class="leading-6 recipe-heading text-lg font-bold mb-[13px]"
+                        class="leading-6 recipe-heading text-lg font-bold mb-[13px] md:text-xl xl:text-2xl"
                     >
                         Ingredients
                     </h2>
                     <div class="mb-10">
                         <h3
-                            class="leading-5 recipe-heading italic font-normal text-base mb-6"
+                            class="leading-5 recipe-heading italic font-normal text-base mb-6 md:text-lg"
                         >
                             Graham Cracker Crust
                         </h3>
-                        <ul class="leading-[26px]">
+                        <ul class="leading-[26px] xl:text-base">
                             <!-- The checkboxes should be here -->
                             <li class="checkbox-layout">
                                 <input
@@ -169,11 +185,11 @@
 
                     <div>
                         <h3
-                            class="recipe-heading italic font-normal text-base mb-6"
+                            class="recipe-heading italic font-normal text-base mb-6 md:text-lg"
                         >
                             Cheesecake
                         </h3>
-                        <ul>
+                        <ul class="leading-[26px] xl:text-base">
                             <li class="checkbox-layout">
                                 <input
                                     type="checkbox"
@@ -279,13 +295,13 @@
                 </section>
 
                 <!-- Instructions section -->
-                <section class="font-body text-base">
+                <section class="font-body text-base lg:col-start-1">
                     <h2
                         class="leading-8 recipe-heading text-2xl font-bold mb-7"
                     >
                         Instructions
                     </h2>
-                    <ol class="leading-[26px]">
+                    <ol class="leading-[26px] xl:text-base">
                         <li class="mb-9 instruction-layout">
                             <span class="instructions pt-[2px]">1</span>
                             <div>
@@ -390,7 +406,7 @@
                         </li>
                     </ol>
                     <p
-                        class="leading-5 italic font-normal text-xs text-secondary-200"
+                        class="leading-5 italic font-normal text-xs text-secondary-200 md:text-sm xl:text-base"
                     >
                         Source:<br />
                         https://sallysbakingaddiction.com/classic-cheesecake/
