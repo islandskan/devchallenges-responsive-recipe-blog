@@ -15,7 +15,8 @@ module.exports = {
                 },
             },
             gridTemplateColumns: {
-                instructions: '1fr auto',
+                instructions: '2.25rem auto',
+                checkboxes: '21px auto',
             },
             fontFamily: {
                 heading: ['"Playfair Display"'],
