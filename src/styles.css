@@ -16,7 +16,11 @@
 }
 
 .instructions {
-    @apply bg-primary w-9 h-9 rounded-md font-heading text-white font-bold text-2xl;
+    @apply bg-primary w-9 h-9 rounded-md font-heading text-center leading-none text-white font-bold text-2xl;
+}
+
+.instruction-layout {
+    @apply grid grid-cols-instructions gap-x-4;
 }
 
 .checkboxes {
