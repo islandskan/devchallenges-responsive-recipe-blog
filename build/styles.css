@@ -847,6 +847,15 @@ input:checked + label {
   text-decoration: line-through;
 }
 
+.checked\:rounded:checked{
+  border-radius: 0.25rem;
+}
+
+.checked\:bg-primary:checked{
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 153 74 / var(--tw-bg-opacity));
+}
+
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(242 153 74 / var(--tw-text-opacity));
