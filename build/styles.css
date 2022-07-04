@@ -644,6 +644,16 @@ video {
   width: 91.666667%;
 }
 
+.w-fit{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -830,6 +840,9 @@ video {
 .checkbox-layout{
   margin-bottom: 0.75rem;
   display: grid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   grid-template-columns: 21px auto;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -838,6 +851,7 @@ video {
 .checkbox{
   height: 21px;
   width: 21px;
+  cursor: pointer;
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(130 130 130 / var(--tw-border-opacity));

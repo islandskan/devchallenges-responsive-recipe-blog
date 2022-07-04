@@ -24,11 +24,11 @@
 }
 
 .checkbox-layout {
-    @apply grid grid-cols-checkboxes gap-x-2 mb-3;
+    @apply w-fit grid grid-cols-checkboxes gap-x-2 mb-3;
 }
 
 .checkbox {
-    @apply w-[21px] h-[21px] border-2 border-secondary-500;
+    @apply w-[21px] h-[21px] border-2 border-secondary-500 cursor-pointer;
 }
 
 .footer-link {
