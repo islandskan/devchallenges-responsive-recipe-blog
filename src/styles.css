@@ -32,9 +32,5 @@
 }
 
 .footer-link {
-    @apply group relative font-bold transition duration-300 ease-linear hover:text-primary active:text-primary focus:text-primary;
-}
-
-.hover-link {
-    @apply absolute bg-primary h-[2px] left-1/2 w-0 bottom-[-8px] transition duration-300 ease-in-out group-hover:left-0 group-hover:w-full group-active:left-0 group-active:w-full group-focus:left-0 group-focus:w-full;
+    @apply relative font-bold transition duration-300 ease-linear hover:text-primary active:text-primary focus:text-primary;
 }
