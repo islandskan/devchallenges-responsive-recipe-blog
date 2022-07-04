@@ -8,9 +8,9 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}">
+    <a href="https://islandskan-recipe-blog.netlify.app/">
       Demo
-    </a> -->
+    </a>
     <span> | </span>
     <a href="https://github.com/islandskan/devchallenges-responsive-recipe-blog">
       Solution
@@ -70,7 +70,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/islandskan/devchallenges-responsive-recipe-blog
 
 # Install dependencies
 $ npm install
