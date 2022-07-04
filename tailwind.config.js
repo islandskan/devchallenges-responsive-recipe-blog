@@ -17,10 +17,14 @@ module.exports = {
             gridTemplateColumns: {
                 instructions: '2.25rem auto',
                 checkboxes: '21px auto',
+                desktopLayout: 'auto 15% 216px',
             },
             fontFamily: {
                 heading: ['"Playfair Display"'],
                 body: ['Montserrat'],
+            },
+            boxShadow: {
+                card: '0px 0px 20px rgba(0, 0, 0, 0.1);',
             },
         },
     },
