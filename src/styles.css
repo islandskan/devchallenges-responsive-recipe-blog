@@ -14,3 +14,11 @@
 .recipe-heading {
     @apply text-secondary-300 font-heading;
 }
+
+.instructions {
+    @apply bg-primary w-9 h-9 rounded-md font-heading text-white font-bold text-2xl;
+}
+
+.checkboxes {
+    @apply w-[21px] h-[21px] border-2 border-secondary-500 rounded bg-white;
+}
