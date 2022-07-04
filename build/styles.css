@@ -660,15 +660,6 @@ video {
   align-self: flex-start;
 }
 
-.border-2{
-  border-width: 2px;
-}
-
-.border-gray-200{
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -852,23 +843,28 @@ video {
   border-color: rgb(130 130 130 / var(--tw-border-opacity));
 }
 
-input:checked + label {
-  text-decoration: line-through;
+.footer-link{
+  font-weight: 700;
 }
 
-.hover\:text-primary:hover{
+.footer-link:hover{
   --tw-text-opacity: 1;
   color: rgb(242 153 74 / var(--tw-text-opacity));
 }
 
-.focus\:text-primary:focus{
+.footer-link:focus{
   --tw-text-opacity: 1;
   color: rgb(242 153 74 / var(--tw-text-opacity));
 }
 
-.active\:text-primary:active{
+.footer-link:active{
   --tw-text-opacity: 1;
   color: rgb(242 153 74 / var(--tw-text-opacity));
+}
+
+.peer:checked ~ .peer-checked\:line-through{
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
 }
 
 @media (min-width: 640px){
@@ -915,6 +911,10 @@ input:checked + label {
 
   .lg\:row-start-1{
     grid-row-start: 1;
+  }
+
+  .lg\:mt-\[52px\]{
+    margin-top: 52px;
   }
 
   .lg\:flex{
@@ -992,44 +992,8 @@ input:checked + label {
     width: 66.666667%;
   }
 
-  .xl\:w-3\/4{
-    width: 75%;
-  }
-
-  .xl\:w-1\/2{
-    width: 50%;
-  }
-
-  .xl\:w-2\/3{
-    width: 66.666667%;
-  }
-
-  .xl\:w-\[70\%\]{
-    width: 70%;
-  }
-
   .xl\:w-\[65\%\]{
     width: 65%;
-  }
-
-  .xl\:pr-4{
-    padding-right: 1rem;
-  }
-
-  .xl\:pr-6{
-    padding-right: 1.5rem;
-  }
-
-  .xl\:pr-8{
-    padding-right: 2rem;
-  }
-
-  .xl\:pr-10{
-    padding-right: 2.5rem;
-  }
-
-  .xl\:pr-12{
-    padding-right: 3rem;
   }
 
   .xl\:text-5xl{
@@ -1045,9 +1009,5 @@ input:checked + label {
   .xl\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .xl\:leading-\[26px\]{
-    line-height: 26px;
   }
 }

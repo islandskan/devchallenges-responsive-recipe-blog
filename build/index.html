@@ -26,7 +26,7 @@
         <!-- Body wrapper -->
         <div class="w-11/12 m-auto md:w-4/5 lg:w-9/12 xl:w-4/6">
             <!-- Recipe heading, ingress, and image -->
-            <section class="mt-8 mb-6">
+            <section class="mt-8 mb-6 lg:mt-[52px]">
                 <h1
                     class="leading-8 font-heading font-bold text-2xl mb-3 sm:text-3xl lg:text-4xl xl:text-5xl"
                 >
@@ -141,9 +141,12 @@
                                     type="checkbox"
                                     name="ing-1"
                                     id="ing-1"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-1">
+                                <label
+                                    for="ing-1"
+                                    class="peer-checked:line-through"
+                                >
                                     1 and 1/2 cups (150g)
                                     <span class="font-bold"
                                         >graham cracker crumbs</span
@@ -156,10 +159,13 @@
                                     type="checkbox"
                                     name="ing-2"
                                     id="ing-2"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
 
-                                <label for="ing-2">
+                                <label
+                                    for="ing-2"
+                                    class="peer-checked:line-through"
+                                >
                                     5 Tablespoons (70g)
                                     <span class="font-bold"
                                         >unsalted butter</span
@@ -171,9 +177,12 @@
                                     type="checkbox"
                                     name="ing-3"
                                     id="ing-3"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-3">
+                                <label
+                                    for="ing-3"
+                                    class="peer-checked:line-through"
+                                >
                                     1/4 cup (50g)
                                     <span class="font-bold"
                                         >granulated sugar</span
@@ -195,10 +204,13 @@
                                     type="checkbox"
                                     name="ing-4"
                                     id="ing-4"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
 
-                                <label for="ing-4">
+                                <label
+                                    for="ing-4"
+                                    class="peer-checked:line-through"
+                                >
                                     four 8-ounce blocks (904g) full-fat
                                     <span class="font-bold">cream cheese</span>,
                                     softened to room temperature
@@ -209,9 +221,12 @@
                                     type="checkbox"
                                     name="ing-5"
                                     id="ing-5"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-5">
+                                <label
+                                    for="ing-5"
+                                    class="peer-checked:line-through"
+                                >
                                     1 cup (200g)
                                     <span class="font-bold"
                                         >granulated sugar</span
@@ -223,9 +238,12 @@
                                     type="checkbox"
                                     name="ing-6"
                                     id="ing-6"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-6">
+                                <label
+                                    for="ing-6"
+                                    class="peer-checked:line-through"
+                                >
                                     1 cup (240g) full-fat
                                     <span class="font-bold">sour cream</span>,
                                     at room temperature
@@ -236,9 +254,12 @@
                                     type="checkbox"
                                     name="ing-7"
                                     id="ing-7"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-7">
+                                <label
+                                    for="ing-7"
+                                    class="peer-checked:line-through"
+                                >
                                     1 teaspoon
                                     <span class="font-bold"
                                         >pure vanilla extract</span
@@ -250,9 +271,12 @@
                                     type="checkbox"
                                     name="ing-8"
                                     id="ing-8"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-8">
+                                <label
+                                    for="ing-8"
+                                    class="peer-checked:line-through"
+                                >
                                     2 teaspoons
                                     <span class="font-bold"
                                         >fresh lemon juice</span
@@ -265,9 +289,12 @@
                                     type="checkbox"
                                     name="ing-9"
                                     id="ing-9"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-9">
+                                <label
+                                    for="ing-9"
+                                    class="peer-checked:line-through"
+                                >
                                     3 large <span class="font-bold">eggs</span>,
                                     at room temperature
                                 </label>
@@ -277,9 +304,12 @@
                                     type="checkbox"
                                     name="ing-10"
                                     id="ing-10"
-                                    class="self-start checkbox"
+                                    class="self-start checkbox peer"
                                 />
-                                <label for="ing-10">
+                                <label
+                                    for="ing-10"
+                                    class="peer-checked:line-through"
+                                >
                                     topping suggestions:
                                     <span class="font-medium italic"
                                         >salted caramel, lemon curd, strawberry
@@ -417,9 +447,7 @@
             <footer class="mb-6 font-body text-secondary-500 text-sm">
                 <p class="text-center font-medium">
                     created by
-                    <a
-                        href="https://github.com/islandskan"
-                        class="font-bold hover:text-primary active:text-primary focus:text-primary"
+                    <a href="https://github.com/islandskan" class="footer-link"
                         >islandskan</a
                     >
                     - devChallenges.io
