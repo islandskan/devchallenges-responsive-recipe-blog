@@ -31,6 +31,6 @@
     @apply w-[21px] h-[21px] border-2 border-secondary-500;
 }
 
-input:checked + label {
-    text-decoration: line-through;
+.footer-link {
+    @apply font-bold hover:text-primary active:text-primary focus:text-primary;
 }
