@@ -15,6 +15,10 @@
             type="image/x-icon"
             href="https://devchallenges.io/"
         />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="styles.css" />
         <title>Recipe Blog</title>
     </head>
@@ -63,25 +67,41 @@
             <section class="mb-32">
                 <!-- Card with serving and time info -->
                 <div class="grid grid-cols-3 grid-rows-2 gap-y-5 leading-3">
-                    <div class="text-secondary-300 col-start-1 row-start-1">
-                        <h6 class="card-title">Yields</h6>
+                    <div
+                        class="text-secondary-300 col-start-1 row-start-1 flex"
+                    >
                         <!-- Icon -->
-                        <p class="card-info text-primary">12 servings</p>
+                        <span class="material-icons text-primary mr-[5px]"
+                            >restaurant_menu</span
+                        >
+                        <div>
+                            <h6 class="card-title">Yields</h6>
+                            <p class="card-info text-primary">12 servings</p>
+                        </div>
                     </div>
-                    <div class="col-start-1 row-start-2">
-                        <h6 class="card-title">Prep time</h6>
+                    <div class="col-start-1 row-start-2 flex">
                         <!-- Icon -->
-                        <p class="card-info">45 minutes</p>
+                        <span class="material-icons mr-[5px]">schedule</span>
+                        <div>
+                            <h6 class="card-title">Prep time</h6>
+                            <p class="card-info">45 minutes</p>
+                        </div>
                     </div>
-                    <div class="col-start-2 row-start-2">
-                        <h6 class="card-title">Cook time</h6>
+                    <div class="col-start-2 row-start-2 flex">
                         <!-- Icon -->
-                        <p class="card-info">1 hour</p>
+                        <span class="material-icons mr-[5px]">schedule</span>
+                        <div>
+                            <h6 class="card-title">Cook time</h6>
+                            <p class="card-info">1 hour</p>
+                        </div>
                     </div>
-                    <div class="col-start-3 row-start-2">
-                        <h6 class="card-title">Total time</h6>
+                    <div class="col-start-3 row-start-2 flex">
                         <!-- Icon -->
-                        <p class="card-info">7,75 hours</p>
+                        <span class="material-icons mr-[5px]">schedule</span>
+                        <div>
+                            <h6 class="card-title">Total time</h6>
+                            <p class="card-info">7,75 hours</p>
+                        </div>
                     </div>
                 </div>
                 <!-- Ingredients section -->
