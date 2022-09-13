@@ -37,8 +37,8 @@
 
 ## Overview
 
-![screenshot](recipe-mobile.png)
-![screenshot](recipe-desk.png)
+![screenshot](mobile-preview.png)
+![screenshot](desktop-preview.png)
 
 -   I decided to learn and try TailwindCSS for the first time.
 -   I learned how to use Tailwind, as well as how to install and run Tailwind through the CLI.
