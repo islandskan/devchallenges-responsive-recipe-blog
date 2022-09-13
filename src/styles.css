@@ -32,5 +32,5 @@
 }
 
 .footer-link {
-    @apply relative font-bold transition duration-300 ease-linear hover:text-primary active:text-primary focus:text-primary;
+    @apply font-bold transition duration-300 ease-linear hover:text-primary active:text-primary focus:text-primary;
 }
